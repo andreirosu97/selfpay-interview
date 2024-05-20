@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ListComponent } from './components/list/list.component';
-import { LogComponent } from './components/log/log.component';
+import { ListViewComponent } from './components/list-view/list-view.component';
+import { LocationSelectorComponent } from './components/location-selector/location-selector.component';
 
 @NgModule({
-  declarations: [AppComponent, ListComponent, LogComponent],
+  declarations: [AppComponent, ListViewComponent, LocationSelectorComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
