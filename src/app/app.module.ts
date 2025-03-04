@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SelectionViewComponent } from "./components/selection-view/selection-view.component";
-import { LocationSelectorComponent } from "./components/location-selector/location-selector.component";
+import { SelectionListComponent } from "./components/selection-list/selection-list.component";
+import { LocationsListComponent } from "./components/locations-list/locations-list.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    SelectionViewComponent,
-    LocationSelectorComponent
+    SelectionListComponent,
+    LocationsListComponent
   ],
   imports: [
     BrowserModule,
